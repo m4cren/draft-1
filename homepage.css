@@ -1,0 +1,115 @@
+body{
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #f0f5f7;
+}
+
+.nav-bar{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     height: 5em;
+     background-color: #295255 ;
+     align-items: center;
+     position: sticky;
+     top: 0;
+     z-index: 1000;
+     box-shadow: 2px -2px 5px #162623 inset;
+     border-radius: 0px 0px 15px 15px;
+}
+.menu-btn{
+     display: flex;
+     list-style: none;
+     gap: 5em;
+}
+.menu-btn-text{
+     color: #f0f5f7;
+     text-decoration: none;
+}
+.search-container{
+     display: flex;
+     align-items: center;
+     margin-right: 50px ; 
+     gap: 2em; 
+}
+.search-input{
+     padding-left: 13px;
+     width: 20em;
+     height: 2.2em;
+     border: none;
+     border-radius: 10px;
+     box-shadow: 1px -1px 3px #162623 inset;
+}
+.search-input:focus{
+     outline: none;
+     box-shadow: 3px -3px 20px #1626237d inset;
+}
+
+.search-btn{
+     background-color: #f0f5f7;
+     border: none;
+     width: 5em;
+     height: 2.2em;
+     border-radius: 10px;
+     font-weight: bolder;
+     box-shadow: -1px 1px 3px #162623 inset;
+     transition: 0.1s ease;
+}
+.search-btn:hover{
+     box-shadow: 1px 1px 3px #162623 inset;
+}
+.content{
+     display: flex;
+     width: 100%;
+     
+}
+.menu-bar{
+     background-color: #577877;
+     width: 20%;
+     position: fixed;
+     top: 4.3em;
+     height: 100%;
+     left: 0;
+     box-shadow: -4px 4px 6px #162623 inset;
+}
+.timeline{
+     background-color: #f0f5f7;
+     position: relative;
+     width: 60%;
+     left: 20%;
+}
+
+.panel-bar{
+     background-color: #577877;
+     width: 20%;
+     height: 100%;
+     position: fixed;
+     top: 4.3em;
+     right: 0;
+     box-shadow: 3px -3px 8px #162623d8 inset;
+}    
+
+.post{
+     
+     border-radius: 5px;
+     border: none;
+     box-shadow: 2px 2px 5px #162623d8 inset;
+     margin: auto;
+     width: 85%;
+     margin-top: 2em;
+     margin-bottom: 2em;
+}
+
+.like-comment-container{
+     display: flex;
+     justify-content: space-between;
+     margin: 10px 20px;
+}
+
+.img-post{
+     width: 100%;
+}
+
+.like-btn{
+     width: 5em;
+}

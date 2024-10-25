@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Momento</title>
+     <link rel="stylesheet" href="index.css">
+     <link rel="icon" href="icons/iconNamin.png" type="image/x-icon">
+</head>
+<body>
+     <div class="container">
+          <img src="icons/MomenTo.png" alt="logo ng pogi">
+          <div class="btn-container">
+               <button id="login-btn" class="btn">Login</button>
+               <button id="signup-btn" class="btn">Sign Up</button>
+          </div>
+     </div>
+
+     <div class="login-pop">
+        
+          <div class="login-container fromTop-animation" id="login-container">
+
+               <button class="exit-login">x</button>
+
+               <div class="title-login">
+                    <h2>Login</h2>
+               </div>
+               <form class="input-container" action="/login" method="post">
+                    <input class="input-field" type="email" name="email" placeholder="Email" required="">
+                    <input class="input-field" type="password" name="password" placeholder="Password" required="">
+                    <input class="input-field" type="submit" value="Submit" id="submit-btn">
+               </form>
+          </div>
+     </div>
+     <div class="signup-pop">
+        
+          <div class="signup-container fromTop-animation">
+
+               <button class="exit-signup">x</button>
+
+               <div class="title-signup">
+                    <h2>Create Account</h2>
+               </div>
+               <form class="input-container">
+                    <input class="input-field" type="email" name="email" placeholder="Email" required="">
+                    <input class="input-field" type="text" name="first_name" placeholder="First name" required="">
+                    <input class="input-field" type="text" name="last_name" placeholder="Last name" required="">
+                    <label class="birthday-lbl">Birthday:</label>
+                    <input class="input-field" type="date" name="birthday" required="" id="birthday-input" placeholder="Birthday">
+                    <input class="input-field" type="text" name="address" placeholder="Address" required="">
+                    <input class="input-field" type="password" name="password1" placeholder="Password" required="">
+                    <input class="input-field" type="password" name="password2" placeholder="Confirm Password" required="">
+                    <input class="input-field" type="password" name="password" placeholder="Password" required="">
+                    <input class="input-field" type="submit" value="Submit" id="submit-btn">
+               </form>
+          </div>
+     </div>
+
+
+     <footer>
+          <a class="footer-btn" href="">Privacy Policy</a>
+          <a class="footer-btn" href="">About Us</a>
+          <a class="footer-btn" href="">Source Code</a>
+     </footer>
+</body>
+<script src="js.js"></script>
+</html>
