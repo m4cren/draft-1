@@ -26,4 +26,7 @@ document.querySelector('.exit-signup').addEventListener('click',function(){
           content = 'none';
      };
 });
+document.getElementById('submit-btn').addEventListener('click', function(){
+     window.location.href = "target-homepage.html"
+})
 
