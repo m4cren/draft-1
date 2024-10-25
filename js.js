@@ -26,7 +26,13 @@ document.querySelector('.exit-signup').addEventListener('click',function(){
           content = 'none';
      };
 });
-document.getElementById('submit-btn').addEventListener('submit', function(){
-     window.location.href = "homepage.html"
-})
+document.querySelector("#login-container form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent default form submission
+    window.location.href = "homepage.html"; // Redirect to homepage.html
+});
+document.querySelector(".signup-container form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent default form submission
+    window.location.href = "homepage.html"; // Redirect to homepage.html
+});
+
 
